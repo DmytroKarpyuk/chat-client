@@ -1,0 +1,75 @@
+.wrapper {
+    min-height: 100vh;
+    height: 100vh;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    font-family: Consolas, sans-serif;
+}
+
+.messageList {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+.message, .ownMessage {
+    width: 45%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #414142;
+    font-size: 1.25rem;
+    background-color: rgba(256, 256, 256, 0.8);
+}
+
+.ownMessage {
+    background-color: rgba(199, 243, 203, 0.8);
+    margin-left: 47%;
+}
+
+.messageInner {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.messageSender {
+    color: #414142;
+    font-size: 0.75rem;
+}
+
+.messageBody {
+    word-wrap: break-word;
+}
+
+.messageBox {
+    display: flex;
+    width: 95%;
+    padding: 1rem;
+}
+
+.messageBox textarea {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.messageBox button {
+    margin-left: 0.5rem;
+    padding: 10px 25px;
+    background-color: blueviolet;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.messageBox button:hover {
+    background-color: #7616ce;
+}

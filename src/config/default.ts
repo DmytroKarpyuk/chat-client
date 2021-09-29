@@ -1,0 +1,1 @@
+export const SOCKET_URL = 'https://glacial-castle-34924.herokuapp.com/';

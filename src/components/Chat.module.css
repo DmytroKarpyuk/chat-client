@@ -1,0 +1,26 @@
+.container {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+}
+
+.nameInputWrapper {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameInputWrapper input {
+    margin-right: 1rem;
+    padding: 10px 15px;
+}
+
+.nameInputInner {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5rem;
+    border-radius: 15px;
+}

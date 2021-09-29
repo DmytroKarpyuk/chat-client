@@ -1,0 +1,49 @@
+.wrapper {
+    width: 250px;
+    background-color: rgba(253, 242, 236, 0.7);
+    min-height: 90vh;
+    padding: 1rem;
+    border-right: 2px solid #666666;
+}
+
+.createRoomWrapper {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.createRoomWrapper input,
+.createRoomWrapper button {
+    width: 100%;
+}
+
+.createRoomWrapper input {
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.username {
+    font-family: Consolas, sans-serif;
+}
+
+.roomList {
+    list-style: none;
+    padding: 0;
+}
+
+.roomList button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #464647;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.roomList button:hover {
+    background-color: #373738;
+}
+
+.roomList button:disabled {
+    opacity: .5;
+}

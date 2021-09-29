@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/75/7c/7e/757c7e703c19b11a2af226b4faa17284.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+input.inp,
+button.btn {
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+button.btn {
+    padding: 10px 25px;
+    background-color: #2977ff;
+    white-space: nowrap;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button.btn:hover {
+    background-color: #2365d9;
+}
