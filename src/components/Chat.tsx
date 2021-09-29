@@ -6,7 +6,7 @@ import styles from './Chat.module.css';
 import RoomsContainer from './Rooms/Rooms';
 
 const Chat = (): ReactElement => {
-    const {socket, username, setUsername} = useSockets();
+    const {username, setUsername} = useSockets();
     const [tempUsername, setTempUsername] = useState('');
 
     const handleSetUsername = () => {
